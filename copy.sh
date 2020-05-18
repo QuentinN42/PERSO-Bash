@@ -1,2 +1,2 @@
-cp ./.bash* ~/
+cp $(ls -a | grep -vf exclude) ~/
 
